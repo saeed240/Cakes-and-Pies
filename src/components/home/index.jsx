@@ -1,4 +1,8 @@
+//internal import
 import "./style.css";
+import Instagram from "../../logos/instagram.png";
+import Facebook from "../../logos/facebook.png";
+import X from "../../logos/x.png";
 
 function Home() {
   return (
@@ -6,7 +10,9 @@ function Home() {
       <div className="container hero">
         <div className="hero-copy">
           <span className="eyebrow">Freshly baked daily</span>
-          <h1>Sweet moments made for every celebration.</h1>
+          <h1>
+            Sweet moments made for every <em>celebration</em>.
+          </h1>
           <p>
             From elegant cakes to comforting pies, we craft handcrafted desserts
             that turn ordinary days into unforgettable memories.
@@ -30,6 +36,33 @@ function Home() {
               <strong>20+</strong>
               <span>Signature flavors</span>
             </div>
+            <div>
+              <strong>10+</strong>
+              <span>Years of experience</span>
+            </div>
+          </div>
+          <div className="hero-social">
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Instagram} alt="Instagram" />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Facebook} alt="Facebook" />
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={X} alt="X" />
+            </a>
           </div>
         </div>
 

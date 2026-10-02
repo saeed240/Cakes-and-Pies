@@ -6,3 +6,27 @@
 .hero-copy .secondary-btn {
   margin-top: 0.25rem;
 }
+
+h1 em {
+  font-family: Georgia, serif;
+  font-weight: 500;
+}
+
+.hero-social {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.hero-social img {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  filter: grayscale();
+  margin-top: -20px;
+}
+
+.hero-social a:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
+}
