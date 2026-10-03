@@ -94,10 +94,19 @@
   grid-template-columns: 1fr;
   gap: 1.2rem;
   min-height: 430px;
+
+  background: linear-gradient(135deg, #f5d7b8, #f0b086);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .cake-card {
-  border-radius: 32px;
+  border-radius: 16px;
   background: linear-gradient(135deg, #fff7f2, #f7e7d8);
   border: 1px solid var(--line);
   padding: 1.5rem;
@@ -109,19 +118,25 @@
   display: flex;
   flex-direction: column;
   justify-content: end;
-  background:
-    radial-gradient(
-      circle at top left,
-      rgba(255, 255, 255, 0.8),
-      transparent 30%
-    ),
-    linear-gradient(135deg, #f5d7b8, #f0b086);
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .cake-card-small {
   width: 72%;
   justify-self: end;
-  background: linear-gradient(135deg, #f9efe8, #f3d7c9);
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .cake-badge {
@@ -142,7 +157,7 @@
 }
 
 .cake-card p {
-  color: var(--muted);
+  color: var(--primary-dark);
 }
 
 @media (max-width: 760px) {

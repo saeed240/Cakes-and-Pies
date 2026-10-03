@@ -2,6 +2,7 @@
 import "./style.css";
 import images from "../../logos/images.png";
 
+//navbar
 function Navbar() {
   return (
     <header className="site-header">
