@@ -1,9 +1,8 @@
 //internal import
 import "./style.css";
-import Instagram from "../../logos/instagram.png";
-import Facebook from "../../logos/facebook.png";
-import X from "../../logos/x.png";
+import { Instagram, Facebook, X, HeroCake } from "../../index.js";
 
+//home
 function Home() {
   return (
     <section id="home" className="home-section section">
@@ -66,12 +65,17 @@ function Home() {
           </div>
         </div>
 
-        <div className="hero-visual" aria-label="Cake display">
+        <div
+          className="hero-visual"
+          aria-label="Cake display"
+          style={{ backgroundImage: `url(${HeroCake})` }}
+        >
           <div className="cake-card cake-card-large">
             <span className="cake-badge">Best Seller</span>
             <h3>Berry Bliss</h3>
             <p>Vanilla sponge · berry cream · silky glaze</p>
           </div>
+
           <div className="cake-card cake-card-small">
             <h3>Golden Apple</h3>
             <p>Warm spice · flaky crust</p>
