@@ -25,3 +25,5 @@ export { default as FruitPie } from "../src/logos/FruitPie.png";
 export { default as SpringRolls } from "../src/logos/SpringRolls.jpg";
 export { default as BerriesCream } from "../src/logos/BerriesCreamCake.jpg";
 export { default as VanillaCake } from "../src/logos/Vanilla.jpg";
+export { default as BlissCake } from "../src/logos/BlissCake.png";
+export { default as FreshPastries } from "../src/logos/FreshPastries.jpg";

@@ -1,5 +1,8 @@
 .home-section {
   padding-top: 4rem;
+  width: 100%;
+  min-height: 100vh;
+  border-bottom: 1px solid saddlebrown;
 }
 
 .hero-copy .primary-btn,

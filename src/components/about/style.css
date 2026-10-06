@@ -32,6 +32,11 @@
   gap: 0.35rem;
 }
 
+.point-card:hover {
+  background: var(--line);
+  border: 1px solid var(--primary-dark);
+}
+
 .point-card strong {
   color: var(--primary-dark);
   font-size: 1.1rem;
@@ -71,6 +76,11 @@
   grid-column: 1 / -1;
 }
 
+.about-offers .offer-card:first-child:hover {
+  background: rgba(177, 162, 162, 0.5);
+  border: 1px solid var(--primary-dark);
+}
+
 .offer-card img {
   width: 200px;
   max-width: 40%;
@@ -78,6 +88,12 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 10px;
+  border: 2px solid silver;
+}
+
+.offer-card:hover {
+  background: rgba(238, 171, 171, 0.5);
+  border: 1px solid var(--primary-dark);
 }
 
 @media (max-width: 760px) {

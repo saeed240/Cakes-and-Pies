@@ -60,7 +60,11 @@ nav img {
 }
 
 .nav-links a:hover {
-  color: var(--primary-dark);
+  color: #fff;
+  border: 1px solid var(--shadow);
+  border-radius: 6px;
+  background-color: var(--primary-dark);
+  padding: 10px;
 }
 
 .nav-button {
