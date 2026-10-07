@@ -1,6 +1,6 @@
 //internal import
 import "./style.css";
-import images from "../../logos/images.png";
+import { images } from "../../assets/images/index.js";
 
 //navbar
 function Navbar() {

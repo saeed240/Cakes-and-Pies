@@ -1,6 +1,6 @@
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.25rem;
 }
 
@@ -10,6 +10,9 @@
   border-radius: 24px;
   padding: 1.5rem;
   box-shadow: var(--shadow);
+  transition:
+    transform 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .menu-card-top {
@@ -28,6 +31,8 @@
 .menu-card span {
   color: var(--primary);
   font-weight: 800;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu-card p {
@@ -44,9 +49,34 @@
 
 .menu-card-image img {
   min-width: 80px;
-  width: 200px;
+  width: 230px;
   height: 200px;
   border-radius: 12px;
+  border: 2px solid silver;
+}
+
+.menu-card:hover {
+  transform: translateY(-3px);
+  background-color: rgb(238, 201, 201);
+}
+
+.order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  margin: 15px auto 0;
+  width: 70px;
+  height: 40px;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 10px;
+  color: var(--primary);
+}
+
+.order-btn:hover {
+  color: #fff;
+  background-color: var(--primary-dark);
 }
 
 @media (max-width: 760px) {

@@ -1,6 +1,6 @@
 //internal import
 import "./style.css";
-import { Instagram, Facebook, X, HeroCake } from "../../index.js";
+import { Instagram, Facebook, X, HeroCake } from "../../assets/images/index.js";
 
 //home
 function Home() {
