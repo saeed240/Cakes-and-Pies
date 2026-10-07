@@ -1,32 +1,19 @@
 //internal imports
 import "./style.css";
-import FudgeCake from "../../logos/Fudge-Cake.jpg";
-import ApplePie from "../../logos/ClassicApple.jpg";
-import Strawberry from "../../logos/Strawberry.jpg";
-import Lemon from "../../logos/Lemon.png";
-import FruitPie from "../../logos/FruitPie.png";
-import SpringRolls from "../../logos/SpringRolls.jpg";
-import BerriesCream from "../../logos/BerriesCreamCake.jpg";
-import VanillaCake from "../../logos/Vanilla.jpg";
-import Layer from "../../logos/layer.jpg";
-import Peanut from "../../logos/peanut.jpg";
-import BlissCake from "../../logos/BlissCake.png";
-import FreshPastries from "../../logos/FreshPastries.jpg";
-
-/*import {
+import {
   FudgeCake,
   ApplePie,
   Strawberry,
   Lemon,
   FruitPie,
   SpringRolls,
-  BerriesCream,
-  VanillaCake,
   Layer,
   Peanut,
+  BerriesCream,
+  VanillaCake,
   BlissCake,
-  FreshPatries,
-} from "../../index.js";*/
+  FreshPastries,
+} from "../../assets/images/index.js";
 
 //menu items data
 const menuItems = [
@@ -130,17 +117,21 @@ function Menu() {
         <div className="menu-grid">
           {menuItems.map((item) => (
             <article key={item.name} className="menu-card">
-              <div className="menu-card-top">
-                <h3>{item.name}</h3>
-                <span>{item.price}</span>
-              </div>
-              <p>{item.description}</p>
+              <span className="menu-card-price">{item.price}</span>
+
               {item.image && (
                 <div className="menu-card-image">
                   <img src={item.image} alt={item.name} />
-                  <button className="order-btn">Order</button>
                 </div>
               )}
+
+              <h3>{item.name}</h3>
+
+              <p>{item.description}</p>
+
+              <button id="#contact" className="order-btn">
+                {item.order}
+              </button>
             </article>
           ))}
         </div>

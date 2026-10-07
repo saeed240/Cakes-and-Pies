@@ -31,6 +31,8 @@
 .menu-card span {
   color: var(--primary);
   font-weight: 800;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menu-card p {
@@ -47,7 +49,7 @@
 
 .menu-card-image img {
   min-width: 80px;
-  width: 200px;
+  width: 230px;
   height: 200px;
   border-radius: 12px;
   border: 2px solid silver;
@@ -62,10 +64,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto;
   padding: 0 10px;
-  width: 80px;
-  height: 55px;
+  margin: 15px auto 0;
+  width: 70px;
+  height: 40px;
   font-size: large;
   font-weight: 700;
   border-radius: 10px;

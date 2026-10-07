@@ -1,6 +1,6 @@
 //internal import
 import "./style.css";
-import { Layer, Peanut, Pie, Vanilla } from "../../index.js";
+import { Layer, Peanut, Pie, Vanilla } from "../../assets/images/index.js";
 
 //about
 function About() {
