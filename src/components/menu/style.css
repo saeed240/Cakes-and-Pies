@@ -26,6 +26,7 @@
 .menu-card h3 {
   color: var(--primary-dark);
   font-size: 1.3rem;
+  margin-top: 10px;
 }
 
 .menu-card span {
@@ -49,7 +50,7 @@
 
 .menu-card-image img {
   min-width: 80px;
-  width: 230px;
+  width: 250px;
   height: 200px;
   border-radius: 12px;
   border: 2px solid silver;
