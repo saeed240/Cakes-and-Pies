@@ -129,9 +129,9 @@ function Menu() {
 
               <p>{item.description}</p>
 
-              <button id="#contact" className="order-btn">
+              <a href="#contact" className="order-btn">
                 {item.order}
-              </button>
+              </a>
             </article>
           ))}
         </div>
