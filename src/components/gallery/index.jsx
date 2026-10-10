@@ -16,7 +16,7 @@ import {
   BerriesCream,
   MiniCake,
   HeroCake,
-} from "../../assets/images/index.js";
+} from "../../assets/images/index";
 
 //gallery items
 const galleryItems = [

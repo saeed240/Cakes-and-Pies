@@ -13,7 +13,7 @@ import {
   VanillaCake,
   BlissCake,
   FreshPastries,
-} from "../../assets/images/index.js";
+} from "../../assets/images/index";
 
 //menu items data
 const menuItems = [
@@ -117,7 +117,7 @@ function Menu() {
         <div className="menu-grid">
           {menuItems.map((item) => (
             <article key={item.name} className="menu-card">
-              <span className="menu-card-price">{item.price}</span>
+              <span>{item.price}</span>
 
               {item.image && (
                 <div className="menu-card-image">

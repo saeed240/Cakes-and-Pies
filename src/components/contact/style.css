@@ -34,4 +34,7 @@
   .contact-card {
     grid-template-columns: 1fr;
   }
+  .primary-btn {
+    text-align: center;
+  }
 }

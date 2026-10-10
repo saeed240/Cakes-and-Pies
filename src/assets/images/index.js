@@ -6,7 +6,7 @@ export { default as X } from "../../logos/x.png";
 export { default as Layer } from "../../logos/layer.jpg";
 export { default as Peanut } from "../../logos/peanut.jpg";
 export { default as Pie } from "../../logos/pie.jpg";
-export { default as Vanilla } from "../../logos/vanilla.jpg";
+export { default as Vanilla } from "../../logos/Vanilla.jpg";
 export { default as FudgeCake } from "../../logos/Fudge-Cake.jpg";
 export { default as ApplePie } from "../../logos/ClassicApple.jpg";
 export { default as Strawberry } from "../../logos/Strawberry.jpg";
