@@ -17,19 +17,11 @@
   box-shadow: var(--shadow);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 .gallery-item span {
   margin: 15px 0 auto;
-}
-
-.gallery-item img {
-  width: 300px;
-  height: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
 }
 
 .gallery-item:hover {

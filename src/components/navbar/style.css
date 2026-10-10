@@ -83,6 +83,19 @@ nav img {
   background: transparent;
   cursor: pointer;
 }
+
+.menu-toggle.is-open .menu-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.menu-toggle.is-open .menu-bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.is-open .menu-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
 .menu-bar {
   display: block;
   width: 23px;
@@ -90,6 +103,7 @@ nav img {
   margin: 5px auto;
   border-radius: 2px;
   background: currentColor;
+  transition: all 0.25s ease;
 }
 
 @media (max-width: 760px) {

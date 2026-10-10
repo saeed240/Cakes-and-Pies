@@ -1,7 +1,7 @@
 //internal import
 import { useState, useEffect } from "react";
 import "./style.css";
-import { images } from "../../assets/images/index.js";
+import { images } from "../../assets/images/index";
 
 //navbar
 function Navbar() {
@@ -26,7 +26,7 @@ function Navbar() {
         </div>
 
         <button
-          className="menu-toggle"
+          className={`menu-toggle ${menuOpen ? "is-open" : ""}`}
           type="button"
           aria-controls="primary-menu"
           aria-expanded={menuOpen}

@@ -15,14 +15,6 @@
     background-color 0.3s ease-in-out;
 }
 
-.menu-card-top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-}
-
 .menu-card h3 {
   color: var(--primary-dark);
   font-size: 1.3rem;
