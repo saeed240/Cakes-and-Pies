@@ -16,6 +16,7 @@ import {
   BerriesCream,
   MiniCake,
   HeroCake,
+  Lemon,
 } from "../../assets/images/index";
 
 //gallery items
@@ -80,6 +81,10 @@ const galleryItems = [
     name: "Mini Cake",
     image: MiniCake,
   },
+  {
+    name: "Lemon Tart",
+    image: Lemon,
+  },
 ];
 
 //gallery
@@ -93,18 +98,11 @@ function Gallery() {
         </div>
 
         <div className="gallery-grid">
-          {galleryItems.map((item, index) => (
-            <div
-              key={item}
-              className={`gallery-item gallery-item-${index + 1}`}
-            >
-              {item.image && (
-                <div>
-                  <img src={item.image} alt={item.image} />
-                </div>
-              )}
+          {galleryItems.map((item) => (
+            <article key={item.name} className="gallery-item">
+              <img src={item.image} alt={item.name} />
               <span>{item.name}</span>
-            </div>
+            </article>
           ))}
         </div>
       </div>
